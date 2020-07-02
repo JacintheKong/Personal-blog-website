@@ -1,0 +1,21 @@
+.box1 {
+  background-image: url("../image/nature.png");
+  background-image: contain;
+  height: auto;
+}
+
+.nested {
+  color: #00008b;
+  padding: 1em;
+}
+
+.bk {
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+}
+
+.button {
+  cursor: pointer;
+  background-color: yellowgreen;
+}

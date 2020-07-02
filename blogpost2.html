@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Claire's Kong's Blog</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+    <link rel="stylesheet" href="css/blogpost2.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header box">
+            <h2>Claire Kong - <em>Master of Science in Data Analytics, Columbia University</em></h2>
+            <img class="icon" src="image/google.png" alt="google">
+            <span class="info">yk2731@columbia.edu</span>
+            <br>
+            <img class="icon" src="image/linkedin.png" alt="linkedin">
+            <span class="info">Claire Kong</span>
+            <br>
+            <img class="icon" src="image/email.png" alt="email">
+            <span class="info">250987749@qq.com</span>
+        </div>
+
+        <div class="sidebar box">
+            <h3><u>The factors contributing to the box office #2</u></h3>
+
+            <p>I used the top 100 movie from 2011 to 2015 (altogether 500 movies) as the training set and the top 100 film in 2016 as the validation set. As for methodology, multiple linear regression is employed. The dependent variable (Y) is the box office and the independent variables (X) include whether the film is a sequel, whether it is adaptation/reshoot, audience expectation for the films, directors’ appeal, actors’ appeal, production district, time difference (of releasing the film in mainland China and other areas), release time, genre, film quality (rating), and budget.
+            </p>
+            <p>The hypothesis is that there is linear relationship between the box office (Y) and other variables (X), and some of the factors will significantly influence films’ box office while others don’t.
+            </p>
+            <p>Initially I planned to acquire all the data from Kaggle, which are scraped from IMDB. However, I found a problem: the original dataset I got from IMDB involve purely American films, and many variables offered by the dataset are related with facebook likes which are not applicable in China:
+                <blockquote cite="https://money.cnn.com/gallery/technology/2016/05/23/banned-china-10/4.html">
+                    "Beijing keeps a tight grip on technology and access to media. These 11 items (including facebook) are still off limits."
+                </blockquote>
+                Therefore, I finally resorted to some Chinese websites.
+            </p>
+
+            <a href="blog-website.html">Click here to return</a>
+        </div>
+
+        <div class="content box">
+            <table border="3" cellpadding="10" cellspacing="2">
+                <tr>
+                    <th>Independent Variables</th>
+                    <th>What can be measured with the data</th>
+                </tr>
+                <tr>
+                    <td>1. District</td>
+                    <td>Whether we need to cooperate more with foreign filmmakers and learn from their experience</td>
+                </tr>
+                <tr>
+                    <td>2. Budget</td>
+                    <td>Whether we need to pay more attention to the film budget and broaden the investment channels</td>
+                </tr>
+                <tr>
+                    <td>3. Audience Expectation</td>
+                    <td>Whether we need to focus more on releasing engaging trailers, running advertisements and holding press conferences for commercial publicity</td>
+                </tr>
+                <tr>
+                    <td>4. Release Time</td>
+                    <td>Whether we need to release films on important festivals, like China’s Lunar New Year and National Day Holiday</td>
+                </tr>
+                <tr>
+                    <td>5. Sequel</td>
+                    <td>Whether we need to produce more sequels for films and build domestic film brands</td>
+                </tr>
+                <tr>
+                    <td>6. Adaptation / Reshoot</td>
+                    <td>Whether we need to adapt more novels, games and reality show to movies</td>
+                </tr>
+                <tr>
+                    <td>7. Rating</td>
+                    <td>Whether we need to emphasize more on the caliber of movies so as to engage as many consumers as possible</td>
+                </tr>
+                <tr>
+                    <td>8. Time Difference</td>
+                    <td>Whether we need to strengthen the protection of intellectual property rights as well as intensify crackdown of piracy</td>
+                </tr>
+                <tr>
+                    <td>9. Genre</td>
+                    <td>Whether some specific kinds of genres lead to higher box office</td>
+                </tr>
+                <tr>
+                    <td>10. Directors / Actors</td>
+                    <td>Whether we need to value the popularity of directors and actors while choosing directors and actors for a film</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="footer box">copyright 2020</div>
+    </div>
+</body>
+
+</html>
